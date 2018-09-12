@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TitleTextView">
+        <attr name="tt_title" format="string" value=""/>
+        <attr name="tt_title_color" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="GeneralView">
+
+        <attr name="left_textColor" format="color"/>
+        <attr name="left_textSize" format="dimension"/>
+        <attr name="left_text" format="string"/>
+
+        <attr name="left_text_msg" format="string"/>
+        <attr name="left_text_textColor" format="color"/>
+
+        <attr name="left_msg_textColor" format="color"/>
+        <attr name="left_msg_textSize" format="dimension"/>
+        <attr name="left_msg_text" format="string"/>
+
+        <attr name="left_img" format="reference|color"/>
+        <attr name="left_img_height" format="dimension"/>
+        <attr name="left_img_width" format="dimension"/>
+        <attr name="left_img_marginLeft" format="dimension"/>
+        <attr name="left_img_visibility" format="boolean"/>
+
+        <attr name="right_textColor" format="color"/>
+        <attr name="right_text_background" format="reference|color"/>
+        <attr name="right_textSize" format="dimension"/>
+        <attr name="right_text" format="string"/>
+
+        <attr name="right_img" format="reference|color"/>
+        <attr name="right_img_height" format="dimension"/>
+        <attr name="right_img_width" format="dimension"/>
+        <attr name="right_img_marginRight" format="dimension"/>
+        <attr name="right_img_visibility" format="boolean"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="OrderDetailsItem">
+        <attr name="isShowLabel" format="boolean"/>
+        <attr name="title_name" format="string"/>
+        <attr name="title_color" format="color"/>
+        <attr name="title_size" format="dimension"/>
+        <attr name="title_height" format="dimension"/>
+        <attr name="subtitle_name" format="string"/>
+        <attr name="subtitle_color" format="color"/>
+        <attr name="subtitle_size" format="dimension"/>
+        <attr name="title_img" format="reference|color"/>
+        <attr name="isShowLabel_title_img" format="boolean"/>
+        <attr name="isShow_line" format="boolean"/>
+        <attr name="title_img_size" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="OrderBottomView">
+        <attr name="ob_right_title" format="string"/>
+        <attr name="ob_left_title" format="string"/>
+        <attr name="ob_is_show_right" format="boolean"/>
+        <attr name="ob_is_show_left" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="WkRatingBar">
+        <attr name="rb_total_star_num" format="integer"/>
+        <attr name="rb_choose_star_num" format="integer"/>
+        <attr name="rb_min_choose_star_num" format="integer"/>
+        <attr name="rb_is_clickable" format="boolean"/>
+        <attr name="rb_starEmpty" format="reference|color"/>
+        <attr name="rb_starFill" format="reference|color"/>
+        <attr name="rb_star_height" format="dimension"/>
+        <attr name="rb_star_width" format="dimension"/>
+        <attr name="rb_star_padding" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="AttachmentView">
+        <attr name="av_item_left_margin" format="dimension"/>
+        <attr name="av_item_is_preview" format="boolean"/>
+        <attr name="av_max_item_num" format="integer"/>
+    </declare-styleable>
+
+</resources>
